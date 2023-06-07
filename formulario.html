@@ -1,0 +1,64 @@
+<html lang="es">
+  <head> 
+    <title>Formulario</title> 
+	<meta charset="utf-8"> 
+	<link href="estilos.css" rel="stylesheet" type="text/css">
+  </head> 
+  <form> 
+    <h1>Contacto</h1>
+	  <p>Los campos obligatorios van seguidos de<strong> <abbr title = "required"> * </abbr> </strong>.</p>
+  <section> 
+    <p>
+      <label  for="last name ">
+        <span>Apellido:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="last name" name="username" required>
+    </p>
+    <p>
+	  <label  for="name">
+	    <span>Nombre:</span>
+		<strong><abbr title="required">*<abbr></strong>
+        <label>
+		<input type="text" id="name" name="username" required>
+    </p>
+	<fieldset>
+	<legend>Género</legend>
+      <ul>
+          <li>
+            <label for="fem_1">
+              <input type="radio" id="fem_1" name="title" value="K" >
+              Femenino
+            </label>
+          </li>
+          <li>
+            <label for="men_2">
+              <input type="radio" id="men_2" name="title" value="Q">
+              Masculino
+            </label>
+          </li>
+          <li>
+            <label for="otro_3">
+              <input type="radio" id="otro_3" name="title" value="J">
+              Otro
+            </label>
+          </li>
+      </ul>
+  </fieldset>
+  <br>
+  <label class="distinto" for="país">País:</label>
+<select name="país" id="país ">
+  <option value="argentina">Argentina</option>
+  <option value="brasil">Brasil</option>
+  <option value="uruguay" selected>Uruguay</option>
+  <option value="chile">Chile</option>
+   <option value="otro">Otro</option>
+</select>
+ <h3>Comentarios y/o Sugerencias</h3>
+  <p><textarea name="comentario" rows="5" cols="50">Escribe aquí tu comentario: </textarea></p>
+  <p> <button type="submit">Enviar</button> </p>
+  <p> <button type="submit">Borrar formulario</button> </p>
+  
+ 
+  </form>
+</html>

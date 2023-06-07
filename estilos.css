@@ -1,0 +1,137 @@
+@font-face{
+	font-family:Gontserrat Light;
+	src:url("fuentes/Gontserrat-Light.ttf");
+}
+body{
+	background-image:url("imagenes/fondo.jpg");
+	
+}
+img{
+	display:block;
+	margin:auto;
+	border-style:solid;
+	border-color:#cf312b;
+	border-width:3px;
+	box-shadow:-6px 2px 10px black;
+	border-radius:5px;
+}
+.galeria{
+	display:inline;
+
+}
+
+h1{
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:35px;
+	border-style:dotted;
+	border-color:#cc2a25;
+	text-shadow: 2px 1px 3px black;
+	font-family:Gontserrat Light;
+	
+}
+h2{
+	text-align:justify;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:20px;
+	font-family:Swis721 LtEx BT Light;
+	text-shadow:1px 1px 1px black;
+	
+}
+h3{
+	text-align:justify;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:18px;
+	font-family:Swis721 LtEx BT Light;
+	text-shadow:1px 1px 1px black;
+}
+h4{
+	text-align:justify;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:18px;
+	font-family:Swis721 LtEx BT Light;
+	text-shadow:1px 1px 1px black;
+}
+h5{
+	text-align:center;
+}
+p{
+	font-family:Swis721 LtEx BT Light;
+	text-align:justify;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:18px;
+	line-height:30px;
+	text-shadow:1px 1px 1px black;
+}
+ul{
+	text-align:justify;
+	margin-right:15%;
+	margin-left:10%;
+	font-family:Swis721 LtEx BT Light;
+	font-size:18px;
+	text-shadow:1px 1px 1px black;
+	line-height:30px;
+}
+ol{
+	text-align:justify;
+	margin-right:15%;
+	margin-left:10%;
+	font-family:Swis721 LtEx BT Light;
+	font-size:18px;
+	text-shadow:1px 1px 1px black;
+	line-height:30px;
+}
+table{
+	text-align:center;
+	font-size:20px;
+	margin:auto;
+	width:50%;
+	border-style:double;
+	border-right:double;
+	border-left:double;
+	font-family:Swis721 LtEx BT Light;
+	line-height:30px;
+}
+a:link{
+	color:#e81313;
+	font-size:20px;
+	margin-right:2%;
+	margin-left:2%;
+	text-decoration:none;
+}
+a:hover{
+	color:#f51d45;
+	border-style:solid;
+}
+a:visited{
+	color:#ff5a0d;
+}
+
+.fotos:hover{
+	
+	border-style:none;
+}
+fieldset{
+	margin-left:10%;
+	margin-right:10%;
+}	
+.distinto{
+	margin-left:10%;
+	margin-right:5%;
+}
+.burger{
+	border-style:none;
+	box-shadow:0px 0px 0px black;
+}
+	
+	
+	
+	
+	
+	
+	
